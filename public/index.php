@@ -3,8 +3,9 @@
 $request = $_SERVER['REQUEST_URI'];
 
 switch ($request) {
-    case '/' :
     case '' :
+    case '/' :
+    case '/en':
         require __DIR__ . '/../views/index.php';
         break;
     case '/about' :
