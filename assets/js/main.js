@@ -1,5 +1,3 @@
-function shout() {
-    alert('I will be contained !!!!');
+window.shout = function() {
+    alert('This is awesome.');
 }
-
-window.shout = shout;
